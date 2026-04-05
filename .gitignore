@@ -1,0 +1,5 @@
+inputs/
+.scala-build/
+.bsp/
+.metals/
+.scalafmt.conf
