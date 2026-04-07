@@ -1,3 +1,7 @@
+package day01
+
+import util.readInput
+
 object Solution:
   def parse(input: List[String]): List[Int] =
     def parseSingle(s: String): Int = 
@@ -33,7 +37,7 @@ object Solution:
       .filter(_ % 100 == 0)
     zeroPositions.length
 
-@main def day01(): Unit =
+@main def main(): Unit =
   val input = readInput(1)
   val data = Solution.parse(input)
 
